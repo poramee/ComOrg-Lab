@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    /* Pointer to the file */
      FILE *fp1;
 
-     /* Opening a file in r mode*/
-     fp1= fopen ("make", "r");
+     fp1= fopen ("Makefile", "r");
 
-     /* Infinite loop –I have used break to come out of the loop*/
      while(1)
      {
         char c = fgetc(fp1);
