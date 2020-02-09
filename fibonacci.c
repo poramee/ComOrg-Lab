@@ -2,6 +2,8 @@
 
 int main(){
     int n;
+    printf("FIBONACCI\n");
+    printf("Enter a number: ");
     scanf("%d",&n);
     unsigned long long int arr[] = {0,1,1,2};
     for(int i = 1;i <= n;++i){
